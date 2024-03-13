@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+}
+
+body {
+  background: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: hsl(0, 0%, 12%);
+  height: 600px;
+  width: 375px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-box {
+  text-align: center;
+  line-height: 0.5rem;
+  font-weight: 700;
+}
+
+.title-box p {
+  font-weight: 600;
+  color: hsl(75, 94%, 47%);
+}
+
+.description-box p {
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 3.5vh;
+}
+
+.img-box img {
+  width: auto;
+  height: 10vh;
+  border-radius: 100%;
+}
+
+.links {
+  background: hsl(0, 0%, 20%);
+  height: 45px;
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a .links:hover {
+  color: black;
+}
+
+.links:hover {
+  background: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
